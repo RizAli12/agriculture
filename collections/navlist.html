@@ -1,16 +1,26 @@
- <template name="navlist">
 
+<template name="navlist">
+<h2>{{>loginButtons}}</h2>
 <h2>Challenges</h2>
+
       <ul id="navlist">
-        <li><a href="#">Pests</a></li>
-        <li><a href="#">Crops Diseases</a></li>        
-        <li><a href="#">Disasters</a></li>
-        <li><a href="#">Floods</a></li>
-        <li><a href="#">Water issues</a> </li>
-        <li><a href="#">Food Security </a> </li>
+
+ <li><a href='/pests'>Pests and Diseases
+<img src="images/pests.jpg"  width="100"  height="75" border="0"></a></li>
+
+
+       
+<li><a href='/natural'> Natural Disasters
+<img src="images/disasters.jpg"  width="100"  height="75" border="0"></a></li>
+
+
+<li><a href='/water'>Water Issues
+<img src="images/water.jpg"  width="100"  height="75" border="0"></a></li>
+       
+<li><a href='/food'>Food Quality
+<img src="images/food.jpg"  width="100"  height="75" border="0"></a></li>
+
+       
       </ul>
    
-   
- 
-
-</template>
+ </template>

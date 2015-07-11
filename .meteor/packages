@@ -9,3 +9,7 @@ autopublish
 insecure
 accounts-ui
 accounts-password
+iron:router
+email
+obvio171:postal
+accounts-meteor-developer

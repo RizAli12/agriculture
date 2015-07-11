@@ -6,10 +6,12 @@ html
   padding: 0;}
 
 body
-{ font: normal 85% Arial, Helvetica, sans-serif;
+{font: normal 85% Arial, Helvetica, sans-serif; font-size: 12px;
   background: #676767 url(../images/background.jpg) repeat;
   color: #000;
+
 }
+
 
 p
 { padding: 0 0 10px 0;
@@ -107,7 +109,8 @@ ol li
   
 #menu_items
 { float: right;
-  width: 680px;}
+font-size: 120%;
+  width: 600px;}
   
 ul#menu
 { margin:0;
@@ -363,9 +366,11 @@ ul img {
   border: none;}
 
 
-.navlist {
+#navlist {
 
-font: 150% arial; }
+font: 120% arial;
+ padding: 0 0 10px 0;
+margin: 15px 15px 15px 20px;
+ }
  
 
- 
